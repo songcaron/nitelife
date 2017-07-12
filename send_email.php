@@ -20,8 +20,8 @@ function isInjected($str) {
 }
 
 // Load form field data into variables.
-$email_address = $_REQUEST['Email'] ;
-$comments = $_REQUEST['Message'] ;
+$email = $_REQUEST['Email'] ;
+$message = $_REQUEST['Message'] ;
 
 // If the user tries to access this script directly, redirect them to feedback form,
 if (!isset($_REQUEST['Email'])) {
@@ -29,19 +29,19 @@ header( "Location: index.html" );
 }
 
 // If the form fields are empty, redirect to the error page.
-elseif (empty($Email) || empty($Message)) {
+elseif (empty($email) || empty($message)) {
 header( "Location: error_message.html" );
 }
 
 // If email injection is detected, redirect to the error page.
-elseif ( isInjected($Email) ) {
+elseif ( isInjected($email) ) {
 header( "Location: error_message.html" );
 }
 
 // If we passed all previous tests, send the email!
 else {
 mail( "songcaron@yahoo.com", "Ursa's Feedback",
-  $Message, "From: $Email" );
+  $message, "From: $email" );
 header( "Location: thank_you.html" );
 }
 ?>
