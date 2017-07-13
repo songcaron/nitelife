@@ -3,7 +3,7 @@ body {
   background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
 }
 
-#container {
+#neon {
   width: 500px;
   margin: auto;
 }
@@ -265,7 +265,7 @@ p a:hover {
 /*REEEEEEEEEEESPONSIVE*/
 
 @media (max-width: 650px) {
-  #container {
+  #neon {
     width: 100%;
   }
   p {
