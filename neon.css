@@ -1,7 +1,9 @@
 h3 {
     text-align: center;
+    font-size: 6.25em;
     margin: 0;
-    font-size: 4.15em;
+    height: 20vw;
+    line-height: 20vw;
     cursor: pointer;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
