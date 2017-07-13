@@ -4,7 +4,7 @@ body {
     background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
 }
 
-p {
+h3 {
     text-align: center;
     font-size: 6.25em;
     margin: 0;
@@ -17,65 +17,65 @@ p {
     animation-direction: alternate
 }
 
-p:nth-child(1) {
+h3:nth-child(1) {
     color: #FFF;
     font-family: "Monoton";
     animation-name: neon1;
 }
 
-p:nth-child(1):hover {
+h3:nth-child(1):hover {
     color: #FF1177;
     animation: none;
 }
 
-p:nth-child(2) {
+h3:nth-child(2) {
     font-size: 7.5em;
     color: #228DFF;
     font-family: "Iceland";
 }
 
-p:nth-child(2):hover {
+h3:nth-child(2):hover {
     animation-name: neon2;
 }
 
-p:nth-child(3) {
+h3:nth-child(3) {
     color: #FFDD1B;
     font-family: "Pacifico";
 }
 
-p:nth-child(3):hover {
+h3:nth-child(3):hover {
     animation: neon3 1.5s ease-in-out infinite alternate;
 }
 
-p:nth-child(4) {
+h3:nth-child(4) {
     font-size: 5.5em;
     color: #B6FF00;
     font-family: "Press Start 2P";
 }
 
-p:nth-child(4):hover {
+h3:nth-child(4):hover {
     animation: neon4 1.5s ease-in-out infinite alternate;
 }
 
-p:nth-child(5) {
+h3:nth-child(5) {
     color: #FF9900;
     font-family: "Audiowide";
 }
 
-p:nth-child(5):hover {
+h3:nth-child(5):hover {
     animation: neon5 1.5s ease-in-out infinite alternate;
 }
 
-p:nth-child(6) {
+h3:nth-child(6) {
     color: #BA01FF;
     font-family: "Vampiro One";
 }
 
-p:nth-child(6):hover {
+h3:nth-child(6):hover {
     animation: neon6 1.5s ease-in-out infinite alternate;
 }
 
-p:hover {
+h3:hover {
     color: #FFF;
 }
 
@@ -140,7 +140,7 @@ p:hover {
 /*Responsive*/
 
 @media (max-width: 720px) {
-    p {
+    h3 {
         height: 45vw;
         line-height: 45vw;
     }
