@@ -1,8 +1,8 @@
 h3 {
     text-align: center;
-    font-size: 5.00em;
+    font-size: 2.00em;
     margin: 0;
-    height: 15vw;
+    height: 10vw;
     line-height: 20vw;
     cursor: pointer;
     animation-duration: 1.5s;
@@ -135,7 +135,7 @@ h3:hover {
 
 @media (max-width: 720px) {
     h3 {
-        font-size:1000%;
-        line-height: 5.0;
+        font-size:100%;
+        line-height: 20vw;
     }
 }
