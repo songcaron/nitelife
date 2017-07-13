@@ -136,6 +136,6 @@ h3:hover {
 @media (max-width: 720px) {
     h3 {
         height:100%;
-        line-height: 1.8;
+        line-height: 5.0;
     }
 }
