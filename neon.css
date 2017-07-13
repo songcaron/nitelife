@@ -14,7 +14,7 @@ h3 {
 h3:nth-child(1) {
     color: #BA01FF;
     font-family: "Monoton";
-    animation-name: neon1;
+    animation-name: neon6;
 }
 
 h3:nth-child(1):hover {
