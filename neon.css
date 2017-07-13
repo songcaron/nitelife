@@ -18,7 +18,7 @@ p:nth-child(1) {
 }
 
 p:nth-child(1):hover {
-    color: #FF1177;
+    color: #BA01FF;
     animation: none;
 }
 
