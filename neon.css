@@ -1,8 +1,7 @@
 h3 {
     text-align: center;
-    margin: 0;
-    height: 100%;
-    line-height: 1.8;
+    height: 150%;
+    line-height: 2.8;
     cursor: pointer;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
@@ -134,7 +133,7 @@ h3:hover {
 
 @media (max-width: 720px) {
     h3 {
-        height:100%;
-        line-height: 1.8;
+        height:150%;
+        line-height: 2.8;
     }
 }
